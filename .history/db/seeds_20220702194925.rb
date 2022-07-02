@@ -1,6 +1,6 @@
-puts "🌱 Seeding spices...🌱🌱"
+puts "🌱 Seeding spices..."
 
-puts "🌱 🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱"
+puts "🌱 "
 
 # Seed your database here
 Student.create(
@@ -8789,5 +8789,4 @@ puts "✅ Done seeding!"
 # Ali =Parent.create(admision_number: 1002 )
 
 
-puts "✅✅✅✅✅✅"
 puts "✅ Done seeding!"

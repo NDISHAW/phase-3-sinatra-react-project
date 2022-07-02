@@ -8789,5 +8789,4 @@ puts "✅ Done seeding!"
 # Ali =Parent.create(admision_number: 1002 )
 
 
-puts "✅✅✅✅✅✅"
 puts "✅ Done seeding!"
