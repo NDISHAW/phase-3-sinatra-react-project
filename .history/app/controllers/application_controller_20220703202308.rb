@@ -7,7 +7,7 @@ set :default_content_type, 'application/json'
 
     post '/students' do
         student = Student.create(
-            Full_names: params[:Full_names],
+            Full_names: params[:full_names],
             admision_number: params[:admision_number],
             date_of_birth: params[:date_of_birth],
             parent_id: params[:parent_id],
@@ -17,7 +17,7 @@ set :default_content_type, 'application/json'
     end
     patch '/students/update' do
         student = Student.update(
-            Full_names: params[:Full_names],
+            Full_names: params[:full_names],
             admision_number: params[:admision_number],
             date_of_birth: params[:date_of_birth],
             parent_id: params[:parent_id],
