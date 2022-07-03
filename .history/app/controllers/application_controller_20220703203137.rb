@@ -27,9 +27,8 @@ set :default_content_type, 'application/json'
     end
 
     delete '/student/:id' do
-        students = Student.find(params[:id])
-        student.destroy
-        student.to_json
+        students = Student.find_by(params[:id])
+        
     end
 
     get '/employees' do
