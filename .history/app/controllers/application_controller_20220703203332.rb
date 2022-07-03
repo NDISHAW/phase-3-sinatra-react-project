@@ -17,7 +17,7 @@ set :default_content_type, 'application/json'
     end
     patch '/students/:id' do
         student = Student.find(params[:id])
-        student.update(
+        Student.update(
             Full_names: params[:Full_names],
             admision_number: params[:admision_number],
             date_of_birth: params[:date_of_birth],
