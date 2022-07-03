@@ -15,7 +15,7 @@ set :default_content_type, 'application/json'
         )
         student.to_json
     end
-    patch '/students/:admision_number' do
+    patch '/students/:id' do
         student = Student.find_by(admision_number: params[:admision_number])
         student.update(
             Full_names: params[:Full_names],
